@@ -1,0 +1,9 @@
+IMAGE_NAME = alpine
+IMAGE_VERSION = latest
+IMAGE_VERSION_ALIASES =	3.3.0 3.3 3 edge
+IMAGE_TITLE = Alpine Linux
+IMAGE_DESCRIPTION = Alpine Linux
+IMAGE_SOURCE_URL = https://github.com/scaleway/image-alpine
+IMAGE_VENDOR_URL = http://www.alpinelinux.org
+IMAGE_BOOTSCRIPT = mainline 4.9
+IMAGE_BASE_FLAVORS = openrc common docker-based
