@@ -1,4 +1,5 @@
 {
+  "images": {
     "3.3": {
         "directory": "alpine-3.3",
         "architectures": [
@@ -6,4 +7,5 @@
         ],
         "marketplace-id": "c0649a2a-e6bf-4712-9303-8d967153209c"
     }
+  }
 }
