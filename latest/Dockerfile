@@ -1,12 +1,12 @@
-## -*- docker-image-name: "scaleway/alpine:latest" -*-
+## -*- docker-image-name: "scaleway/alpine:latest-stable" -*-
 ARG MULTIARCH_ARCH
-FROM multiarch/alpine:${MULTIARCH_ARCH}-v3.3
+FROM multiarch/alpine:${MULTIARCH_ARCH}-latest-stable
 
 MAINTAINER Scaleway <opensource@scaleway.com> (@scaleway)
 
 
 # Environment
-ENV SCW_BASE_IMAGE scaleway/alpine:latest
+ENV SCW_BASE_IMAGE scaleway/alpine:latest-stable
 
 
 # Adding and calling builder-enter
